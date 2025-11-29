@@ -4,7 +4,7 @@ public class Wordle {
 
     // Reads all words from dictionary filename into a String array.
     public static String[] readDictionary(String filename) {
-        File file = new File("/Users/yanivsiboni/Desktop/intro2cs/HW/hw5-yanivsiboni/dictionary.txt");
+        File file = new File("dictionary.txt");
         In reader = new In(file);
         String[] randomWords = reader.readAllLines();
         return randomWords;
